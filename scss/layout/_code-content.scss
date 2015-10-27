@@ -1,0 +1,27 @@
+.code-content{
+	margin-bottom: 4em;
+	pre {
+		margin-top: 1rem;
+		margin-bottom: 2rem;
+	}
+	h1,
+	h2,
+	h3 {
+		margin-bottom: 0.5em;
+	}
+	ul,
+	ol,
+	p {
+		code {
+			background: $ghost;
+			color: $jet;
+		}
+	}
+	img {
+		@media #{$large-up} { 
+			width: 70%;
+			margin-top: 1em;
+			margin-bottom: 1em;
+		}
+	}
+}
