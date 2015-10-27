@@ -1,0 +1,16 @@
+.skills-row {
+	h5 {
+		text-align: center;
+		text-transform: uppercase;
+	}
+	.skill-image {
+		width: 150px;
+		display: block;
+		margin: 0 auto 0.5em auto;
+	}
+	li {
+		@media #{$small-only} { 
+      width: 100%;
+    }
+	}
+}

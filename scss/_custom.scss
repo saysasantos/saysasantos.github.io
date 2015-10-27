@@ -1,9 +1,10 @@
 // UI Components
-@import "components/testimonials";
-@import "components/gems";
-@import "components/navigation";
+
+@import "components/buttons";
+@import "components/education";
 @import "components/avatar";
-@import "components/code_boxes";
+@import "components/form";
+@import "components/skills";
 
 //Layout
 
@@ -11,3 +12,4 @@
 @import "layout/hero";
 @import "layout/sections";
 @import "layout/code-content";
+

@@ -5,6 +5,7 @@
   }
   width: 100%;
   h2 {
+    text-transform: uppercase;
     margin-bottom: 2em;
     @media #{$small-only} {
       margin-bottom: 1em;
@@ -12,14 +13,15 @@
   }
 }
 
-.section-separator {
-  background: $ghost;
+.skills {
+  background: lighten($mint, 5);
+  padding: 4em 0;
 }
 
-.code-section {
-  margin-bottom: 3em;
+.contact {
+  background: lighten($mint, 10);
 }
 
-.gems {
-  background: $vapor;
+textarea {
+  min-height: 120px
 }

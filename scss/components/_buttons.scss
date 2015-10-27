@@ -1,0 +1,7 @@
+.button,
+button {
+	text-transform: uppercase;
+	&:hover {
+		color: $white;
+	}
+}
