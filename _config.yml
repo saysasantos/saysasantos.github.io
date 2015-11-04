@@ -2,9 +2,5 @@ kramdown:
   auto_ids:   true
   input:      GFM
 exclude:
+  - bower_components
   - node_modules
-baseurl: /
-domain_name: 'http://trailblazer.to'
-url: 'http://trailblazer.to'
-include:
-  - .nojekyll
