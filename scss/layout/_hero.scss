@@ -17,13 +17,15 @@
   height: 500px;
   .hero-text {
     color: white;
+    text-align: center;
     line-height: 1.2em; 
     @media #{$small-only} { 
       text-align: center;
     }
   }
   .avatar {
-    height: 350px;
+    height: 300px;
+    margin: 1em auto;
   }
   h1 {
     text-transform: uppercase;
