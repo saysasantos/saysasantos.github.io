@@ -14,12 +14,12 @@
 }
 
 .skills {
-  background: lighten($mint, 5);;
+  background: $primary-color;
   padding: 4em 0;
 }
 
 .contact {
-  background: lighten($mint, 3);
+  background: $primary-color;
 }
 
 textarea {

@@ -115,12 +115,10 @@ $oil         : #1B1B1C;
 $jet         : #232324;
 $black       : #000000;
 
-$mint: #FFDDD5;
-
 
 // We use these as default colors throughout
-$primary-color: #e0cfa4;
-$secondary-color: $steel;
+$primary-color: #FFEAE2;
+$secondary-color: #e0cfa4;
 // $alert-color: #f04124;
 // $success-color: #43AC6A;
 // $warning-color: #f08a24;
@@ -450,7 +448,7 @@ $button-function-factor: -20%;
 // We use these to control button border and hover styles.
 $button-border-width: 2px;
 $button-border-style: solid;
-$button-bg-color: lighten($mint, 3);
+$button-bg-color: $primary-color;
 $button-bg-hover: $black;
 $button-border-color: $button-bg-hover;
 // $secondary-button-bg-hover: scale-color($secondary-color, $lightness: $button-function-factor);
@@ -626,7 +624,7 @@ $form-label-font-color: $black;
 $form-label-small-transform: uppercase;
 $form-label-bottom-margin: 5px;
 // $input-font-family: inherit;
-$input-font-color: darken($mint, 20);
+$input-font-color: darken($primary-color, 20);
 // $input-font-size: rem-calc(14);
 $input-bg-color: $white;
 $input-focus-bg-color: $white;
