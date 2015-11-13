@@ -1,7 +1,8 @@
 .button,
 button {
 	text-transform: uppercase;
-	&:hover {
+	&:hover,
+	&:focus {
 		color: $white;
 	}
 }
